@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Az Emberiség Jövője</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body class="bg-dark text-light">
+    
+    <video id="bg-video" autoplay muted loop>
+        <source src="videoplayback.mp4" type="video/mp4">
+    </video>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var video = document.getElementById("bg-video");
+            video.addEventListener("loadedmetadata", function() {
+                var randomTime = Math.random() * video.duration;
+                video.currentTime = randomTime;
+            });
+        });
+    </script>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Jövő 2077</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="cities.html">Űrvárosok</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ai.html">Robotok és MI</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Kapcsolat</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <header class="text-center p-5" >
+        <h1 class="display-4 text-neon">Mesebeli Űrvárosok</h1>
+        <p class="lead">Ismerd meg az emberiség jövőjét, a mesterséges intelligenciát és az űrvárosokat!</p>
+
+        
+
+        
+
+    <div class="container" class="story-box">
+        <div class="story-box">
+            <h2>Vízsziget Városa (Budapest)</h2>
+            <p>*A Vízsziget Városa (Budapest) a jövő egyik legimpozánsabb metropolisza lett. A város a Duna köré épült, és a folyó partján lebegő, fenntartható szigetek alkotják a város új központját. Az egykori belváros helyett most hatalmas lebegő parkok és épületek alkotják Budapest legújabb városrészét. A vízenergia a város egyik fő energiaforrása, és a szigeteken belső tavak és vízesések találhatók, amelyek nemcsak szépséget, hanem tisztítást és friss levegőt biztosítanak.</p>
+
+            <p>*A város közlekedése a jövő technológiáját ötvözi: elektromos vízi járművek és lebegő járdák, amelyek könnyedén összekapcsolják a város különböző részeit. Az épületek felhőkarcolói szintén zöldek, tele növényekkel, amelyeket a város lakói saját kezűleg gondoznak. A város olyan technológiai újításokkal büszkélkedhet, mint a víz alatti farmok, amelyek segítenek fenntartani a friss vízkészletet, és biztosítják a város élelmiszer-ellátását.</p>
+        </div>
+
+
+
+        <div class="story-box">
+            <h2>Napfény Városa (Szeged)</h2>
+            <p>*A Napfény Városa (Szeged) a jövő Magyarországának egyik legfényesebb példája lett. A város nevét a napsütéses órák számáról kapta, és ez nem véletlen, mert Szeged környezetét úgy alakították át, hogy a napenergia legyen az elsődleges erőforrás. Az épületek napkollektorokkal borították be, így minden egyes ház és iroda fenntartható módon működik. Az utak alatt vezetett geotermikus energiát is felhasználják, hogy a város hűvös és energiatakarékos legyen a forró nyári hónapokban. Az egész város egy hatalmas park, tele fákkal, virágokkal és zöld tetőkkel.</p>
+            
+            <p>*A Napfény Városában a közlekedés is zöld lett: az önjáró, elektromos járművek és a légpárnás, környezetbarát közlekedési eszközök szállítják az embereket, miközben a város központja egy hatalmas zöld tér, ahol a művészetek és a természet ötvöződnek. Az épületek között nyújtózkodó fák és a folyóparti sétányok mind a fenntarthatóság és a természet közelségét sugározzák. Az innováció és a tudomány terén is vezető szerepet játszik, hiszen a Szegedi Tudományegyetem itt a legújabb zöld technológiák fejlesztésében és kutatásában élen jár.</p>
+        </div>
+        
+        
+        
+        <div class="story-box">
+            <h2>Zöldhegy Városa (Miskolc)</h2>
+            <p>*A Zöldhegy Városa (Miskolc) egy zöld oázis lett a jövőben, amely egyesíti a hegyek és az urbánus környezet harmóniáját. A város egy hegyekkel körülvett völgyben terül el, ahol a hegyek lábánál napelemek és szélturbinák találhatók, biztosítva az összes szükséges energiát. A hegyek belsejében természetes barlanghálózatok is helyet kaptak, amelyek védett lakóhelyeket és turizmusra alkalmas helyszíneket biztosítanak.</p>
+
+            <p>*A város központjában található egy hatalmas botanikus kert, amely nemcsak a város lakóinak pihenőhelye, hanem kutatások színtere is, ahol a fenntarthatóságot és az ökológiát kutatják. A hegyek oldalában megújuló energiaforrástól független, okos városrendszerek működnek, amelyek minden háztartásnak segítenek fenntartani az energiafogyasztást és a vízkészletet.</p>
+        </div>
+
+        <div class="story-box">
+            <h2>Művészváros (Pécs)</h2>
+            <p>*A Művészváros (Pécs) a kultúra és a kreativitás központjává vált a jövőben. A város történelmi központjában modern művészeti galériák és kulturális központok sorakoznak, miközben a város minden egyes épülete egy műalkotásként van megtervezve. A Művészváros egyik legnagyobb vonzereje a város színes és egyedi építészete, ahol minden sarkon találkozhatunk festményekkel, szobrokkal, és digitális művészeti installációkkal.</p>
+
+            <p>*A Művészvárosban a közlekedés is különleges élmény: a város szoros kapcsolatban áll a digitális művészeti világokkal, és az okos eszközök, mint a hologramok és virtuális valóság, egyesítik a valóságot a művészettel. A városban évről évre rendeznek egy nemzetközi művészeti fesztivált, amely a világ minden tájáról vonzza a látogatókat. A városlakók és látogatók egyaránt részt vehetnek a művészetek és az alkotás folyamatában.</p>
+        </div>
+    </div>
+    
+
+
+    <iframe width="1600" height="900"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+    </iframe>
+    
+
+
+        <a href="index.html" class="btn btn-outline-info btn-lg">Vissza</a>
+    </header>
+
+
+</body>
+</html>
